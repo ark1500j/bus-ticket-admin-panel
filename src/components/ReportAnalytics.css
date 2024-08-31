@@ -1,0 +1,98 @@
+/* ReportAnalytics.module.css */
+.report-analytics {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .date-range {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .date-range label {
+    display: flex;
+    flex-direction: column;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .date-range input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 1rem;
+  }
+  
+  .analytics-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .analytics-card {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .analytics-card h2 {
+    color: #1e60ed;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .analytics-card p, .analytics-card ul {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .analytics-card ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .analytics-card li {
+    margin-bottom: 5px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    background-color: #1e60ed;
+    color: #fff;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #1453b6;
+  }
+  
+  @media (min-width: 768px) {
+    .analytics-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  

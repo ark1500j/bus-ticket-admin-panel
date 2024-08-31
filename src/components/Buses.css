@@ -1,0 +1,154 @@
+.buses-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    width: 80vw;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .add-bus-button {
+    background-color: #1e60ed;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    max-width: 150px; /* Set a max-width */
+  width: 100%; /* Make the button responsive */
+  text-align: center; /* Center the text */
+  }
+
+  .add-bus-form {
+    margin-top: 20px;
+    display: none;
+  }
+  
+  .add-bus-form.visible {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  
+  .fleet-overview {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .fleet-overview .card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    text-align: center;
+  }
+  
+  .fleet-overview .card h3 {
+    margin-bottom: 10px;
+  }
+  
+  .fleet-overview .card p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .bus-management-table {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .bus-management-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .bus-management-table table th, 
+  .bus-management-table table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .bus-management-table table th {
+    background-color: #1e60ed;
+    color: white;
+  }
+  
+  .table-actions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .table-actions button {
+    background-color: #1e60ed;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .table-actions button.edit {
+    background-color: #28a745;
+  }
+  
+  .table-actions button.delete {
+    background-color: #dc3545;
+  }
+  
+  .add-bus-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .add-bus-form h3 {
+    margin-bottom: 20px;
+  }
+  
+  .add-bus-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .add-bus-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .add-bus-form .form-group input,
+  .add-bus-form .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-bus-form button {
+    background-color: #1e60ed;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
